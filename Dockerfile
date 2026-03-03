@@ -1,4 +1,4 @@
-FROM python:3.9.7-slim-bullseye
+FROM python:3.9-slim-bullseye
 RUN mkdir /bot && chmod 777 /bot
 WORKDIR /bot
 ENV DEBIAN_FRONTEND=noninteractive
